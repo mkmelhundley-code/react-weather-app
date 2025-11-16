@@ -8,12 +8,14 @@ import Footer from "./Footer";
 export default function App() {
   return (
     <div className="App">
-      <Search />
-      <hr />
-      <CurrentConditions />
-      <Forecast />
-      <hr />
-      <Footer />
+      <div className="container">
+        <Search />
+        <hr />
+        <CurrentConditions />
+        <Forecast />
+        <hr />
+        <Footer />
+      </div>
     </div>
   );
 }
